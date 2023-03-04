@@ -597,8 +597,8 @@ header .search-bar-container label:hover {
 
 .brand-container {
   text-align: center;
-  padding-left: 10em;
-  padding-right: 10em;
+  padding-left: 8em;
+  padding-right: 8em;
 }
 
 .swiper-container {
@@ -628,6 +628,10 @@ header .search-bar-container label:hover {
 .row img {
   width: 30em;
   margin-top: -5em;
+}
+
+.footer {
+  border: 1px solid black;
 }
 .footer .box-container .box h3:nth-child(1) {
   /* border: 1px solid black; */
