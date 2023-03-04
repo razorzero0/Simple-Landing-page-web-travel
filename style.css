@@ -690,6 +690,9 @@ header .search-bar-container label:hover {
   section {
     padding: 2rem;
   }
+  .footer .box-container .row img {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -722,6 +725,9 @@ header .search-bar-container label:hover {
     margin: 1.5rem 0;
     background: #222;
   }
+  .footer .box-container .row img {
+    display: none;
+  }
 }
 
 @media (max-width: 450px) {
@@ -742,5 +748,8 @@ header .search-bar-container label:hover {
   }
   .contact .row .image img {
     width: 100%;
+  }
+  .footer .box-container .row img {
+    display: none;
   }
 }
