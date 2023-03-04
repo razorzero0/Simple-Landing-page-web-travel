@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Travel</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link hello -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="#" class="logo"><span>M</span>y <span>T</span>rip</a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+
+        <a href="#packages">paket</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#book">book</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
+
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here..." />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+      <i class="fas fa-times" id="form-close"></i>
+
+      <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email" />
+        <input type="password" class="box" placeholder="enter your password" />
+        <input type="submit" value="login now" class="btn" />
+        <input type="checkbox" id="remember" />
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+      </form>
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Adventures fill your soul</h3>
+        <p>Life is either a daring adventure or nothing at all</p>
+        <a href="#packages" class="btn">Let's Do It</a>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn active" data-src="images/vdeo-3.mp4"></span>
+        <span class="vid-btn" data-src="images/video-5.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/video-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+      </div>
+
+      <div class="video-container">
+        <video
+          src="images/vid-4.mp4"
+          id="video-slider"
+          loop
+          autoplay
+          muted></video>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- packages section starts  -->
+
+    <section class="packages" id="packages">
+      <h1 class="heading" data-aos="zoom-in" data-aos-duration="1000">
+        <span>p</span>
+        <span>a</span>
+        <span>k</span>
+        <span>e</span>
+        <span>t</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
+          <div class="box-img">
+            <img src="images/bali.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Bali</h3>
+            <p>
+              Bali adalah pulau yang sangat indah dengan panjang garis pantai
+              sekitar 633,35 km. Di Pulau Bali terdapat gunung berapi,
+              sungai-sungai, dan danau. Keberadaan gunung berapi memberikan
+              kesuburan tanah untuk usaha pertanian. Gunung berapi di Pulau Bali
+              adalah Gunung Batur dan Gunung Agung.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">
+              Rp 1.999.999 &nbsp; <span>Rp 2.599.999</span>
+            </div>
+            <a href="#" class="btn">Pesan Sekarang</a>
+          </div>
+        </div>
+
+        <div
+          class="box"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100">
+          <div class="box-img">
+            <img src="images/gumul.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Kediri</h3>
+            <p>
+              Tempat instagramable di Kediri, salah-satunya berada di Monumen
+              Simpang Lima Gumul. Monumen tersebut sekaligus menjadi landmark
+              Kabupaten Kediri, Provinsi Jawa Timur. Saat malam tiba, view yang
+              tersaji di Monumen Simpang Lima Gumul tampak begitu indah.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">
+              Rp 1.999.999 &nbsp;<span>Rp 2.599.999</span>
+            </div>
+            <a href="#" class="btn">Pesan Sekarang</a>
+          </div>
+        </div>
+
+        <div
+          class="box"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200">
+          <div class="box-img">
+            <img src="images/rajaampat.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Raja Ampat</h3>
+            <p>
+              Raja Ampat merupakan surga yang berada di wilayah Indonesia timur.
+              Menurut laporan dari The Nature Conservancy and Conservation
+              Internasional, ada kurang lebih 75% spesies karang dunia di
+              kepulauan ini. Selain itu, Raja Ampat juga memiliki 1.318 jenis
+              ikan, 699 moluska, dan 547 terumbu karang.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">
+              Rp 1.999.999 &nbsp;<span>Rp 2.599.999</span>
+            </div>
+            <a href="#" class="btn">Pesan Sekarang</a>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
+          <div class="box-img">
+            <img src="images/borobudur.webp" alt="" />
+          </div>
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Borobudur</h3>
+            <p>
+              Candi Borobudur memang seperti wisata wajib bagi wisatawan di
+              Jogja. Meskipun letaknya di Magelang, Candi Borobudur bisa
+              dijangkau dalam 1,5 jam saja dengan kendaraan pribadi/sewaan dari
+              pusat Kota Jogja. Transportasi Umum ke Borobudur juga tersedia.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">
+              Rp 1.999.999 &nbsp;<span>Rp 2.599.999</span>
+            </div>
+            <a href="#" class="btn">Pesan Sekarang</a>
+          </div>
+        </div>
+
+        <div
+          class="box"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100">
+          <div class="box-img">
+            <img src="images/jogja.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Jogja</h3>
+            <p>
+              Jogja adalah ibu kota sekaligus pusat pemerintahan dan
+              perekonomian dari Daerah Istimewa Yogyakarta, Indonesia. Kota ini
+              adalah kota besar yang mempertahankan konsep tradisional dan
+              budaya Jawa.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">
+              Rp 1.999.999 &nbsp;<span>Rp 2.599.999</span>
+            </div>
+            <a href="#" class="btn">Pesan Sekarang</a>
+          </div>
+        </div>
+
+        <div
+          class="box"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200">
+          <div class="box-img">
+            <img src="images/malang.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Malang</h3>
+            <p>
+              Wisata Kota Malang Terletak di Jawa di Indonesia , Malang adalah
+              salah satu tempat favorit bagi sebagian besar orang, Mengapa?
+              Karena kota malang ini penuh dengan hal-hal luar biasa untuk
+              dilakukan.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">
+              Rp 1.999.999 &nbsp;<span>Rp 2.599.999</span>
+            </div>
+            <a href="#" class="btn">Pesan Sekarang</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+      <h1 class="heading" data-aos="zoom-in" data-aos-duration="1000">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
+          <i class="fas fa-hotel"></i>
+          <h3>Penginapan yang nyaman</h3>
+          <p>
+            Kami memiliki banyak hotel terjangkau untuk Anda di seluruh
+            Indonesia !! Jadi tunggu apa lagi.
+          </p>
+        </div>
+        <div
+          class="box"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100">
+          <i class="fas fa-plane"></i>
+          <h3>travel Tercepat</h3>
+          <p>
+            Penerbangan yang panjang dan membosankan bukan pilihan Anda? Jangan
+            khawatir! Beberapa dari penerbangan tercepat kami dapat membawa Anda
+            ke lokasi yang mewah dan eksotis dalam satu jam saja!
+          </p>
+        </div>
+        <div
+          class="box"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200">
+          <i class="fas fa-hiking"></i>
+          <h3>petualangan</h3>
+          <p>
+            Hidup ini terlalu singkat untuk tidak mengambil kesempatan
+            berpetualang, ketika momen itu datang, kami dapat menjamin Anda
+            tidak akan pernah menyesali layanan yang kami berikan.
+          </p>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
+          <i class="fas fa-globe-asia"></i>
+          <h3>Menjangkau Dunia</h3>
+          <p>
+            Bagi kami, satu-satunya batasan adalah imajinasi Anda, sehingga kami
+            telah memperluas layanan kami untuk dapat menerbangkan pelanggan ke
+            mana saja yang mereka inginkan di Indonesia maupun dunia.
+          </p>
+        </div>
+        <div
+          class="box"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100">
+          <i class="fas fa-utensils"></i>
+          <h3>Makanan dan Minuman</h3>
+          <p>
+            Anda akan mendapatkan semua jenis makanan dan minuman khas Indonesia
+            seperti pecel, gudeg, nasi padang, tiwol... dengan harga yang sangat
+            terjangkau.
+          </p>
+        </div>
+        <div
+          class="box"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200">
+          <i class="fas fa-bullhorn"></i>
+          <h3>panduan keselamatan</h3>
+          <p>
+            Bepergian dengan kami tidak pernah tidak aman. Kami selalu
+            memastikan pelanggan merasa aman dan mempraktikkan kehati-hatian
+            serta menerapkan protokol keamanan saat bepergian.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+      <h1
+        class="heading"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="100">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
+          <img src="images/bali.jpg" alt="" />
+          <div class="content">
+            <h3>Tempat yang Indah</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div
+          class="box"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100">
+          <img src="images/g-2.jpg" alt="" />
+          <div class="content">
+            <h3>Tempat yang Indah</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div
+          class="box"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200">
+          <img src="images/borobudur.webp" alt="" />
+          <div class="content">
+            <h3>Tempat yang Indah</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
+          <img src="images/g-4.jpg" alt="" />
+          <div class="content">
+            <h3>Tempat yang Indah</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div
+          class="box"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100">
+          <img src="images/malang.jpg" alt="" />
+          <div class="content">
+            <h3>Tempat yang Indah</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div
+          class="box"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200">
+          <img src="images/g-6.jpg" alt="" />
+          <div class="content">
+            <h3>Tempat yang Indah</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
+          <img src="images/g-7.jpg" alt="" />
+          <div class="content">
+            <h3>Tempat yang Indah</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div
+          class="box"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100">
+          <img src="images/g-8.jpg" alt="" />
+          <div class="content">
+            <h3>Tempat yang Indah</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div
+          class="box"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200">
+          <img src="images/jogja.jpg" alt="" />
+          <div class="content">
+            <h3>Tempat yang Indah</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+      <h1
+        class="heading"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="100">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+      </h1>
+
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/dianwebp.webp" alt="" />
+              <h3>Dian Sastro</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                adipisci quisquam sunt nesciunt fugiat odit minus illum
+                asperiores dolorum enim sint quod ipsam distinctio molestias
+                consectetur ducimus beatae, reprehenderit exercitationem!
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/desta.jpeg" alt="" />
+              <h3>Desta</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                adipisci quisquam sunt nesciunt fugiat odit minus illum
+                asperiores dolorum enim sint quod ipsam distinctio molestias
+                consectetur ducimus beatae, reprehenderit exercitationem!
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/enzy.jpeg" alt="" />
+              <h3>Enzy Storia</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                adipisci quisquam sunt nesciunt fugiat odit minus illum
+                asperiores dolorum enim sint quod ipsam distinctio molestias
+                consectetur ducimus beatae, reprehenderit exercitationem!
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/dustin.webp" alt="" />
+              <h3>Dustin TIffany</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                adipisci quisquam sunt nesciunt fugiat odit minus illum
+                asperiores dolorum enim sint quod ipsam distinctio molestias
+                consectetur ducimus beatae, reprehenderit exercitationem!
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+    <!-- book section starts  -->
+
+    <section class="book" id="book">
+      <h1
+        class="heading"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="100">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+      </h1>
+
+      <div
+        class="row"
+        data-aos="zoom-out"
+        data-aos-duration="1000"
+        data-aos-delay="100">
+        <div class="image">
+          <img src="images/family.png" alt="" />
+        </div>
+
+        <form action="">
+          <div class="inputBox">
+            <h3>tujuan</h3>
+            <input type="text" placeholder="nama tempat" />
+          </div>
+          <div class="inputBox">
+            <h3>berapa banyak</h3>
+            <input type="number" placeholder="jumlah pengunjung" />
+          </div>
+          <div class="inputBox">
+            <h3>kedatangan</h3>
+            <input type="date" />
+          </div>
+          <div class="inputBox">
+            <h3>pulang</h3>
+            <input type="date" />
+          </div>
+          <input type="submit" class="btn" value="Pesan Sekarang" />
+        </form>
+      </div>
+    </section>
+
+    <!-- book section ends -->
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1
+        class="heading"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="100">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+      </h1>
+
+      <div
+        class="row"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="100">
+        <div class="image">
+          <img src="images/world.png" alt="" />
+        </div>
+
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="nama" />
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <input type="number" placeholder="nomer" />
+            <input type="text" placeholder="subject" />
+          </div>
+          <textarea
+            placeholder="pesan"
+            name=""
+            id=""
+            cols="30"
+            rows="10"></textarea>
+          <input type="submit" class="btn" value="kirim pesan" />
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- brand section  -->
+    <section class="brand-container">
+      <h1
+        class="heading"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="100">
+        <span>p</span>
+        <span>a</span>
+        <span>r</span>
+        <span>t</span>
+        <span>n</span>
+        <span>e</span>
+        <span>r</span>
+      </h1>
+
+      <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/cakra.webp" alt="" /></div>
+          <div class="swiper-slide"><img src="images/node.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/mysql.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/git.png" alt="" /></div>
+
+          <div class="swiper-slide"><img src="images/cakra.webp" alt="" /></div>
+          <div class="swiper-slide"><img src="images/node.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/mysql.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/git.png" alt="" /></div>
+        </div>
+      </div>
+      <div class="swiper-container brand-slider2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/html.png" alt="" /></div>
+          <div class="swiper-slide">
+            <img src="images/tailwind.png" alt="" />
+          </div>
+          <div class="swiper-slide"><img src="images/js.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/post.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/html.png" alt="" /></div>
+          <div class="swiper-slide">
+            <img src="images/tailwind.png" alt="" />
+          </div>
+          <div class="swiper-slide"><img src="images/js.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/post.png" alt="" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+      <div class="container box-container">
+        <div class="row">
+          <div class="col col-4 box">
+            <h3>Contact Us</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +333-2323-730 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +567-695-765 </a>
+            <a href="#">
+              <i class="fas fa-envelope"></i> raffiahmad@gmail.com
+            </a>
+            <a href="#"> <i class="fas fa-map"></i> kediri, Jawa Timur </a>
+          </div>
+
+          <div class="col-4 box">
+            <h3>Socials</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> Facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> Twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> Instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> Linkedin </a>
+          </div>
+
+          <img src="images/Travel_fall_in_love_and_be_happy_6210.svg" alt="" />
+        </div>
+        <h3>Created with <i class="fa fa-heart"></i> By Ainun</h3>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
