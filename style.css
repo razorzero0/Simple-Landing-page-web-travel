@@ -631,7 +631,7 @@ header .search-bar-container label:hover {
 }
 
 .footer {
-  border: 1px solid black;
+  border: 10px solid black;
 }
 .footer .box-container .box h3:nth-child(1) {
   /* border: 1px solid black; */
