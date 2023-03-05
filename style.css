@@ -11,7 +11,6 @@
   box-sizing: border-box;
   text-transform: capitalize;
   outline: none;
-  border: none;
   text-decoration: none;
   transition: all 0.2s linear;
 }
@@ -23,7 +22,7 @@
 
 html {
   font-size: 63.5%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   scroll-padding-top: 6rem;
   scroll-behavior: smooth;
 }
@@ -647,7 +646,12 @@ header .search-bar-container label:hover {
   color: white;
   font-size: 2.5rem;
   padding-bottom: 2rem;
-  width: 8em;
+}
+.footer .box-container .box h3:nth-child(1) {
+  max-width: 9em;
+}
+.footer .box-container .box:nth-child(2) h3 {
+  max-width: 6em;
 }
 .footer .box-container h3:last-child {
   color: white;
